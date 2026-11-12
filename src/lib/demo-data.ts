@@ -1,0 +1,91 @@
+/**
+ * Données de démonstration uniquement.
+ * Les véhicules, marques, modèles, visuels et catégories ne constituent pas
+ * une flotte commerciale RENTA LUX. Aucun tarif officiel n'a été communiqué.
+ */
+export const demoVehicles = [
+  {
+    id: "demo-01",
+    name: "Berline Signature",
+    brand: "Marque à confirmer",
+    category: "Berline",
+    seats: 5,
+    transmission: "Automatique",
+    energy: "À confirmer",
+    pricePerDay: null as number | null,
+    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1600&q=88",
+    imageAlt: "Berline sombre dans un décor architectural contemporain",
+    label: "VÉHICULE ILLUSTRATIF",
+  },
+  {
+    id: "demo-02",
+    name: "SUV Grand Confort",
+    brand: "Marque à confirmer",
+    category: "SUV",
+    seats: 5,
+    transmission: "Automatique",
+    energy: "À confirmer",
+    pricePerDay: null as number | null,
+    image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1600&q=88",
+    imageAlt: "SUV photographié dans un paysage ouvert",
+    label: "VÉHICULE ILLUSTRATIF",
+  },
+  {
+    id: "demo-03",
+    name: "Coupé de Caractère",
+    brand: "Marque à confirmer",
+    category: "Prestige",
+    seats: 2,
+    transmission: "À confirmer",
+    energy: "À confirmer",
+    pricePerDay: null as number | null,
+    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=88",
+    imageAlt: "Coupé sportif présenté dans une lumière de fin de journée",
+    label: "VÉHICULE ILLUSTRATIF",
+  },
+  {
+    id: "demo-04",
+    name: "Élégance Sportive",
+    brand: "Marque à confirmer",
+    category: "Prestige",
+    seats: 4,
+    transmission: "Automatique",
+    energy: "À confirmer",
+    pricePerDay: null as number | null,
+    image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1600&q=88",
+    imageAlt: "Automobile sportive photographiée en extérieur",
+    label: "VÉHICULE ILLUSTRATIF",
+  },
+  {
+    id: "demo-05",
+    name: "SUV Édition Urbaine",
+    brand: "Marque à confirmer",
+    category: "SUV",
+    seats: 5,
+    transmission: "Automatique",
+    energy: "À confirmer",
+    pricePerDay: null as number | null,
+    image: "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1600&q=88",
+    imageAlt: "SUV élégant dans un environnement urbain",
+    label: "VÉHICULE ILLUSTRATIF",
+  },
+  {
+    id: "demo-06",
+    name: "Van Grand Voyage",
+    brand: "Marque à confirmer",
+    category: "Van",
+    seats: 7,
+    transmission: "Automatique",
+    energy: "À confirmer",
+    pricePerDay: null as number | null,
+    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1600&q=88",
+    imageAlt: "Véhicule spacieux photographié dans un cadre contemporain",
+    label: "VÉHICULE ILLUSTRATIF",
+  },
+] as const;
+
+export const chauffeurServices = [
+  { number: "01", title: "Transferts", text: "Une demande de trajet entre deux adresses, étudiée selon vos horaires et vos besoins." },
+  { number: "02", title: "Déplacements professionnels", text: "Une organisation pensée pour vos rendez-vous et vos déplacements d'affaires." },
+  { number: "03", title: "Mise à disposition", text: "Une demande de véhicule avec conducteur pour une durée à définir ensemble." }
+] as const;
